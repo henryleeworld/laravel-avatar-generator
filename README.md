@@ -1,4 +1,4 @@
-# Laravel 9 大頭貼產生器
+# Laravel 10 大頭貼產生器
 
 引入 laravolt 的 avatar 套件來擴增製作的頭像個性化，也比較沒有使用上的問題，能夠快速製作出文字頭像圖片。
 
@@ -21,5 +21,5 @@ $ php artisan key:generate
 
 ----
 ## 畫面截圖
-![](https://i.imgur.com/VoddRQX.png)
+![](https://i.imgur.com/lLDT34I.png)
 > 可以方便其他人辨識，不管是上傳臉書或拿去做其他影像編輯都很實用
