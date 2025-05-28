@@ -1,8 +1,9 @@
-# Laravel 10 大頭貼產生器
+# Laravel 11 大頭貼產生器
 
 引入 laravolt 的 avatar 套件來擴增製作的頭像個性化，也比較沒有使用上的問題，能夠快速製作出文字頭像圖片。
 
 ## 使用方式
+- 打開 php.ini 檔案，啟用 PHP 擴充模組 gd，並重啟服務器。
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
 ```sh
 $ git clone
@@ -21,5 +22,5 @@ $ php artisan key:generate
 
 ----
 ## 畫面截圖
-![](https://i.imgur.com/lLDT34I.png)
+![](https://i.imgur.com/9Tf5FVb.png)
 > 可以方便其他人辨識，不管是上傳臉書或拿去做其他影像編輯都很實用
