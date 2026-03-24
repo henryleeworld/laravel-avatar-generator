@@ -1,4 +1,4 @@
-# Laravel 11 大頭貼產生器
+# Laravel 12 大頭貼產生器
 
 引入 laravolt 的 avatar 套件來擴增製作的頭像個性化，也比較沒有使用上的問題，能夠快速製作出文字頭像圖片。
 
@@ -17,10 +17,14 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/avatar/output/` 來進行文字頭像圖片產生。
 
 ----
 ## 畫面截圖
-![](https://i.imgur.com/9Tf5FVb.png)
+![](https://i.imgur.com/vAkHFsh.png)
 > 可以方便其他人辨識，不管是上傳臉書或拿去做其他影像編輯都很實用
